@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>Mi página web</h1>
+    </header> 
+
+    <form>
+        <fieldset>
+            <legend>
+                Formulario
+            </legend>
+
+            <div>
+                <label for="Nombre">Nombre</label>
+                <input type="text"Name="Nombre" placeholder="Juan">
+            </div>
+            <div>
+                <label for="Apellido">Apellido</label>
+                <input type="text"Name= "Apellido" placeholder="Perez">
+            </div>
+            <div>
+                <label for="email">Escrive tu mail*</label>
+                <input type="email" Name="email" id="email" required>
+            </div>
+            <div>
+                <label for="Nacimiento">Fecha de nacimiento</label>
+                <input type="date">
+            </div>
+            <div>
+                <label for="pass">Escribe tu contraseña</label>
+                <input type="password" Name="pass">
+            </div>
+            <div>
+                <label for="pais">Selecciona un pais</label>
+                <select name="pais" id="pais">
+                    <option value="arg">ARGENTINA</option>
+                    <option value="uru">URUGUAY</option>
+                    <option value="ch">CHILE</option>
+                </select>
+            </div>
+            <div>
+                <label for="genero">Género</label>
+                <input type="radio" name=género value="Mujer">Mujer
+                <input type="radio" name="género" value="Hombre">Hombre
+                <input type="radio" name="género" value="No Binario">No Binario
+            </div>
+            <div>
+                <label for="comentario"> Escribe tu mensaje </label> 
+                <textarea name="comentario" id="" cols="20" rows="8"placeholder="Escribe acá"></textarea>
+
+            </div>
+            <div>
+                Acepta terminos y condiciones
+                <input type="checkbox" name="acepta" id="1">
+            </div>
+            <br>
+            <div>
+                <input type="submit" value="Enviar datos">
+            </div>
+            <div>
+                <input type="reset" value="Borrar datos">
+            </div>
+            
+            </fieldset>
+        </form>
+    </body>
+</html>
